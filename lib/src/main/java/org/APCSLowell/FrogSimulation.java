@@ -20,9 +20,6 @@ public class FrogSimulation {
             if (disTotal >= goalDistance) {
                 return true;
             }
-            if (disTotal < 0) {
-                return false;
-            }
         }
         return false;
     }
